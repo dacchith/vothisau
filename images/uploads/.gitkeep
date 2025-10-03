@@ -1,0 +1,3 @@
+git add content/posts/.gitkeep
+git commit -m "Thêm thư mục content/posts cho Decap CMS"
+git push origin main
