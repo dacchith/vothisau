@@ -1,0 +1,5 @@
+mkdir -p content/posts
+echo "# Git keep file for posts" > content/posts/.gitkeep
+git add content/posts/.gitkeep
+git commit -m "Add .gitkeep for content/posts"
+git push origin main
