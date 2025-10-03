@@ -1,5 +1,5 @@
 mkdir -p images/uploads
-touch images/uploads/.gitkeep
+echo "# Git keep file for uploads" > images/uploads/.gitkeep
 git add images/uploads/.gitkeep
-git commit -m "Thêm thư mục uploads"
+git commit -m "Add .gitkeep for images/uploads"
 git push origin main
