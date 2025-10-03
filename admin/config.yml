@@ -2,6 +2,8 @@ backend:
   name: github
   repo: dacchith/vothisau
   branch: main
+  auth_scope: repo
+  base_url: https://decap-cms-oauth.netlify.app  # dùng proxy có sẵn
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
