@@ -2,17 +2,3 @@ backend:
   name: github
   repo: dacchith/vothisau
   branch: main
-  base_url: https://decap-cms-oauth.netlify.app
-
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
-collections:
-  - name: "posts"
-    label: "Bài viết"
-    folder: "content/posts"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Nội dung", name: "body", widget: "markdown" }
